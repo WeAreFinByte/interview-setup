@@ -26,10 +26,6 @@ It should work on your localhost 4000 port.
 
 
 
-### Create dev and prod environments - using different API keys
-
-- Explain the reason as to why Express ‘app’ and ‘server’ must be kept separate.
-
 ### Create a frontend application which has the following:
 
   - A single dropdown menu which has static base currencies: EUR, USD, GBP
