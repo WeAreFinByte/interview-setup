@@ -7,38 +7,24 @@ This repository provides bootstrap project which includes interview questions
 
 ## Interview Questions
 
-### Write a nodejs express endpoint to fetch a given weather conditions.
+### Write a nodejs express endpoint to fetch exchange rates by given base currency.
 
-You should use: https://developer.accuweather.com/
+You should use: https://exchangeratesapi.io/
 
-First register to the system using the URL above
-Create an app and get an API key
-Use that API key to get weather information
+We want you to implement an endpoint that will take "base" currency as an input and return currency rates by using
+https://api.exchangeratesapi.io/latest
+
+In other words, we want you to implement exchange rates API:
+
+https://api.exchangeratesapi.io/latest?base=USD
+
+by using its
+
+https://api.exchangeratesapi.io/latest
+
 It should work on your localhost 4000 port.
 
-`Write a nodejs express endpoint to fetch next 5 days of weather temperature forecast.`
 
-Sample Response:
-
-takes location_key_id as input
-
-```
-GET /forecast
-{
-   forecasts:[
-       {date:2020-11-24T07:00:00+00:00", low: 35, high: 46}, 
-       {...}, 
-       ..]
-}
-```
-
-You can use: https://developer.accuweather.com/
-You need to register & create API key first.
-And you can use that API key to get weather information
-It should work on your localhost 4000 port.
-
-It is enough to use 3 locations:
-London: 328328, Berlin: 178087, Ankara: 316938
 
 ### Create dev and prod environments - using different API keys
 
