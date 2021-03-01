@@ -32,8 +32,14 @@ It should work on your localhost 4000 port.
 
 ### Create a frontend application which has the following:
 
-  - A single dropdown menu which has the 3 locations above
-  - When selected fetch information regarding the next five days and simply put them on a day-temperature table
+  - A single dropdown menu which has static base currencies: EUR, USD, GBP
+  - When selected fetch information regarding the selected base currency and put them on a currency table as:
+  
+Currency | Exchange Rate 
+--- | --- 
+EUR/CAD | ... 
+EUR/USD | ... 
+EUR/GBP | ... 
 
 ### How should the tests would be structured for such an application?
 
